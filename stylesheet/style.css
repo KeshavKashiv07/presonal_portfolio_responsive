@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+}
+.top_section{
+    background-color: #0C134F;
+    border-bottom: 1px solid #FDE2F3;
+}
+.main_heading{
+    font-family: Monoton;
+    letter-spacing: 10px;
+    color: #FDE2F3;
+}
+nav.navbar{
+    background-color: #0C134F   ;
+}
+a.nav-link{
+    color: white;
+    font-family: Poppins;
+}
+a.nav-link:hover{
+    color:rgb(197, 197, 197);
+    border-bottom: 1px solid #FDE2F3;
+    transition: .3s ease-in;
+}
+
+.column_one{
+    background-color: #0C134F;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: relative;
+}
+.para1{
+    font-family: Poppins;
+    /* font-size:50px;  */
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+}
+span{
+    color: #FDE2F3;
+    letter-spacing: 2px;
+}
+.about_me{
+    color: #FDE2F3;
+}
+hr{
+    width:60%;
+}
+.about_mepara{
+    color: whitesmoke;
+}
+.hero_section{
+    background-color: #fde2f3b5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 5px solid #0C134F;
+}
+.history,.tools{
+    color: #0C134F;
+    font-family: Poppins;
+}
+.education_head,.certificate_head,.software_head{
+    font-family: 'Staatliches', cursive;
+    color: #0C134F;
+}
+.degree_description,.school_description,.duration_description,.location_description,.list_description,.credential_id{
+    font-family: Poppins;
+}
+.degree_description,.list_description{
+    letter-spacing: 2px;
+    color: #0C134F;
+}
+.tech_description{
+    list-style: none;
+}
+.tech_items{
+    font-family: Poppins;  
+}
+.tech_items:hover{
+    background-color: #0C134F;
+    color: white;
+    transition: .3s ease-in;
+}
+.footer_section{
+    background-color: #0C134F;
+}
+.footer_head{
+    color: thistle;
+}
+.footer_list{
+    list-style: none;
+}
+i{
+    color: white;
+}
+.fa-facebook-square,.fa-instagram,.fa-twitter,.fa-github,.fa-linkedin{
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    margin: 0px 2px;
+    border-radius: 50px;
+}
+.fa-facebook-square:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-github:hover,.fa-linkedin:hover{
+color: #0C134F;
+background-color: whitesmoke;
+transition: .2s ease-in;
+}
+
+/* shape css */
+.shape_two{
+    height: 50px;
+    width: 50px;
+    background-color: #FDE2F3;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .5;
+    left: 50px;
+    animation: html_move 10s linear 1s infinite alternate;
+}
+.shape_three{
+    height: 80px;
+    width: 80px;
+    background-color: #FDE2F3;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .5;
+    left: 50px;
+    bottom: 50px;
+    animation: css_move 10s linear 1s infinite alternate;
+}
+.shape_four{
+    height: 70px;
+    width: 70pxpx;
+    background-color: #FDE2F3;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .7;
+    right:10px;
+    animation: bootstrap_move 10s linear 1s infinite alternate;
+
+}
+/* Scroll Bar  */
+::-webkit-scrollbar{
+    background-color:#0C134F;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FDE2F3;
+    border-radius: 10px;
+    width: 10%;
+}
+
+/* Keyframes  */
+
+@keyframes html_move {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    20%{
+        top: 40%;
+        left: 50%;
+    }
+    50%{
+        top: 60%;
+        right: 70%;
+    }
+    100%{
+        top: 20%;
+        left: 30%;
+    } 
+}
+
+@keyframes css_move {
+    0%{
+        bottom: 0;
+        right: 0;
+    }
+    30%{
+        bottom: 30%;
+        right: 30%;
+    }
+    60%{
+        bottom: 60%;
+        left: 60%;
+    }
+    100%{
+        bottom: 0;
+        left: 15%;
+    }
+        
+}
+@keyframes bootstrap_move {
+    0%{
+        bottom: 0;
+        right: 0;
+    }
+    30%{
+        bottom: 60%;
+        right: 40%;
+    }
+    60%{
+        bottom: 70%;
+        left: 50%;
+    }
+    100%{
+        bottom:30%;
+        left: 15%;
+    }  
+}
+
