@@ -63,17 +63,6 @@ span{
     background-color: #fdf0d5;
 }
 
-/* Scroll Bar  */
-/* ::-webkit-scrollbar{
-    background-color:#0C134F;
-    width: 6px;
-}
-::-webkit-scrollbar-thumb{
-    background-color: #780000;
-    border-radius: 6px;
-    width: 10%;
-} */
-
 .tools{
     color: #780000;
 }
