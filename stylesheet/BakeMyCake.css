@@ -97,8 +97,8 @@ span{
 }
 
 img{
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
     border: 1px solid #780000 ;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -126,4 +126,8 @@ i{
 color: #0C134F;
 background-color: whitesmoke;
 transition: .2s ease-in;
+}
+
+.footer_para_FD{
+    color: #fdf0d5;
 }
