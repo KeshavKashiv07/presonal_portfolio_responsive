@@ -46,7 +46,7 @@ span{
     font-family: Poppins;
 }
 .hero_section{
-    background-color: #fdf0d5;
+    /* background-color: #fdf0d5; */
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     border-bottom: 7px solid #780000;
@@ -57,6 +57,10 @@ span{
 }
 .history{
     color: #780000;
+}
+
+.software_section{
+    background-color: #fdf0d5;
 }
 
 /* Scroll Bar  */
