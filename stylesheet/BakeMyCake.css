@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+.top_section{
+    background-color: #fdf0d5;
+    border-bottom: 2px solid #780000;
+}
+
+.main_heading{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 10px;
+    color: #780000;
+    background-color: #fdf0d5;
+}
+
+nav.navbar{
+    background-color: #fdf0d5   ;
+}
+a.nav-link{
+    color: black;
+    font-family: Poppins;
+}
+a.nav-link:hover{
+    border-bottom: 1px solid #780000;
+    transition: .3s ease-in;
+    color: #780000;
+}
+.head_section{
+    background-color: #fdf0d5;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom: 9px solid #780000;
+}
+.about_me{
+    color: #780000;
+}
+.line{
+    width:80%;
+}
+
+span{
+    color: #780000;
+}
+.about_mepara{
+    color: black;
+    font-family: Poppins;
+}
+.hero_section{
+    background-color: #fdf0d5;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom: 7px solid #780000;
+}
+.Problam{
+    font-family: 'Staatliches', cursive;
+    color: #780000;
+}
+.history{
+    color: #780000;
+}
+
+/* Scroll Bar  */
+/* ::-webkit-scrollbar{
+    background-color:#0C134F;
+    width: 6px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #780000;
+    border-radius: 6px;
+    width: 10%;
+} */
+
+.tools{
+    color: #780000;
+}
+.education_head,.certificate_head,.software_head{
+    font-family: 'Staatliches', cursive;
+    color: #780000;
+}
+.school_description,.duration_description,.location_description,.list_description,.credential_id,.project-description{
+    font-family: Poppins;
+}
+.degree_description,.list_description{
+    letter-spacing: 2px;
+    color: #780000;
+}
+.tech_description{
+    list-style: none;
+}
+.tech_items{
+    font-family: Poppins; 
+}
+.tech_items:hover{
+    background-color: #780000;
+    color: white;
+    transition: .3s ease-in;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #780000 ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.footer_section{
+    background-color: #780000;
+}
+.footer_head{
+    color: #fdf0d5;
+}
+.footer_list{
+    list-style: none;
+}
+i{
+    color: white;
+}
+.fa-facebook-square,.fa-instagram,.fa-twitter,.fa-github,.fa-linkedin{
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    margin: 0px 2px;
+    border-radius: 50px;
+}
+.fa-facebook-square:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-github:hover,.fa-linkedin:hover{
+color: #0C134F;
+background-color: whitesmoke;
+transition: .2s ease-in;
+}

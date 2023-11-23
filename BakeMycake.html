@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bake My Cake</title>
+
+     <!-- stylesheet -->
+     <link rel="stylesheet" href="./stylesheet/BakeMyCake.css">
+     <!-- google font  -->
+     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+     <!-- Bootstrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <!-- font awwsomme  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+
+    <section class="top_section py-3">
+        <h1 class="main_heading display-6 text-center fs-1 text-uppercase">Bake My Cake</h1>
+    </section>
+
+    <!-- nabar  -->
+    <nav class="navbar  navbar-expand-lg">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler bg-light rounded-3 mt-md-2 w-auto" type="button" data-bs-target="#navBarItems"
+                data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarItems">
+                <ul class="navbar-nav d-flex w-100 justify-content-center">
+                    <li class="nav-item px-3">
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#Problam" class="nav-link ">Problam Statement</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#Tools" class="nav-link ">Tools</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#Demo" class="nav-link ">Demo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- row 1 -->
+    <section class="head_section row ">
+        <section class="column_one col-md-12 col-lg-12 align-items-center py-2 px-4 mb-2 pb-5">
+                <h4 class="about_me mt-5 fs-5 text-uppercase m-3">Context</h4>
+                <p class=" about_mepara fs-6  mt-3 lh-lg m-3 ">Cakes, cookies and brownies are all time favorites of young and old. No celebration is complete without these delicacies. The cake shops have started offering options to the customers to bake cakes as per their needs.
+                    In addition, taking the advantage of widely used digital platform, the cake outlets offer options to customers to place their orders online.                    
+                    This is a win-win situation for both the outlet as well as its customers. The outlets are able to reach to larger audience and the customers are able to enjoy the delicacies prepared by the popular outlet, served at their doorstep.
+                </p>
+                 <hr class=" line ms-3 m-4">
+                <h4 class="about_me mt-2 fs-5 text-uppercase m-3" >Objective </h4>
+                <p class=" about_mepara fs-6  mt-3 lh-lg m-3"> <span class="fs-5">Online Ordering Convenience : </span> Provide customers with a convenient and user-friendly platform to make online requests for cakes, cookies, or brownies from the comfort of their homes or any device with internet access. <br>
+                    <span class="fs-5">User-Friendly Search and Filter :</span> Implement an efficient search and filter functionality that allows customers to quickly find their desired products based on item name and category. <br>                    
+                    <span class="fs-5">Guest Checkout Option : </span> Allow customers to place orders without requiring them to create an account, providing a seamless guest checkout option to enhance user convenience <br>                    
+                    <span class="fs-5">Secure Administrator Access : </span> Implement a secure authentication system that ensures only authorized administrators can access the order request view (order history) to maintain confidentiality and data integrity. <br>                    
+                    <span class="fs-5">Pagination for Order-Requests View : </span> If there are a large number of order requests, implement pagination in the order-requests view to enhance performance and ease of navigation. <br>                    
+                    <span class="fs-5">Mobile Responsiveness : </span> Ensure the application is fully responsive and accessible on various devices, including desktops, tablets, and smartphones, to cater to a wide range of users. <br>
+                    </p>
+        </section>
+    </section>
+
+<!-- row 2  -->
+    <section class="hero_section row d-flex align-items-center px-3 h-auto py-3 my-3" id="Problam">
+        <section class="education_column col-md-6 col-lg-6 ">
+            <h4 class="history text-uppercase fs-5 ms-3">History</h4>
+            <p class="Problam display-1 ms-3">Problam<br>& Statement</p>
+        </section>
+        <section class="education_column2 col-md-6 col-lg-6 px-3 py-4">
+            <p class=" mb-1 fw-semibold my-3 me-5">Develop a single page application using Angular – Bake My Cake, that allows customers to make an online request for cakes, cookies, or brownies of their choice.</p> <hr>
+            <p class=" mb-1 fw-semibold my-3 me-5">The delicacies are displayed with attractive images and crisp details, allowing the users to select the item of their choice and provide the order details.</p><hr>
+            <p class=" mb-1 fw-semibold my-3 me-5">The app should seek confirmation from the users before allowing them to navigate away from the order view without submitting the details.​                
+                The app can search and filter the items by the user’s preference for a quick selection.</p>  <hr>              
+            <p class=" mb-1 fw-semibold my-3 me-5">The site administrator can view the incoming order requests.​ The app should redirect user to first validate his identity as site administrator before providing access to the order request view.​</p>
+        </section>
+    </section>
+
+<!-- row 3 -->
+    <section class="software_section row d-flex align-items-center px-3 h-auto py-3" id="Tools">
+        <section class="software_heading_column col-md-6 col-lg-6 ">
+            <h4 class="tools text-uppercase fs-5 ms-3">Tools</h4>
+            <p class="software_head display-1 ms-3">Software<br>& Skills</p>
+        </section>
+        <section class="software_item_column col-md-6 col-lg-6 px-3 py-4">
+            <!-- frontend tech  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Frontend technologies</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">Html5</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">Css3</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">TypeScript</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">Rest API</li>
+            </ul>
+            <hr>
+            <!-- framework  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold ">Frameworks</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Bootstrap5</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Angular</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Jasmine Karma</li>
+            </ul>
+            <hr>
+            <!-- database tech  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Database technologies</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Json Server</li>
+            </ul>
+            <hr>
+            <!-- softwares  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Softwares</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">VS Code</li>
+            </ul>
+            <hr>
+            <!-- version control tech   -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Version control technologies</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">GitHub</li>
+            </ul>
+        </section>
+    </section>
+
+
+<!-- row 4 -->
+    <section class="hero_section row d-flex align-items-center px-3 h-auto py-3" id="Demo">
+        <section class="education_column col-md-5 col-lg-5 ">
+            <h4 class="history text-uppercase fs-5 ms-3">Working</h4>
+            <p class="certificate_head display-1 ms-3">Demo</p>
+        </section>
+        <section class="education_column2 col-md-7 col-lg-7 px-3 py-4">
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Home Page (Landing View)</p>
+            <img class="ms-3" src="./images/Homepage.PNG" alt="Home Page">
+            <p class="duration_description mb-1">> The landing view of the app must display the images of cakes, cookies and brownies.<br>
+                > The data must be fetched using json-server.<br>
+                > This view must be the default view.<br>
+                > These items should be selectable by the user.<br>
+                > Upon selection, the user should be navigated to the order view.<br>
+                > The landing view must also allow users to search / filter these items by their preference.<br>
+                > Search allows user to search by item name.<br>
+                > Filtering allows user to filter items by category.<br>
+            </p>
+            <hr>
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Order View Page</p>
+            <img class="ms-3" src="./images/OrderViews.PNG" alt="OrderViews Page">
+            <p class="duration_description mb-1">> The user will be navigated to the order view once he selects the item on the landing view.<br>
+                > The view should display the details of the item selected. <br>
+                > This view should also allow user to provide the details required for placing order for the selected item. <br>
+                > The details should include the item details as well as the customer details. <br>
+                > The app will request confirmation from the user to leave the view, if the user attempts to navigate away from this view without submitting the request.<br>
+            </p>
+            <hr>
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Admin Login Page</p>
+            <img class="ms-3" src="./images/Adminlogin.PNG" alt="Admin Login">
+            <p class="duration_description mb-1">> The user should be navigated to the login view if he attempts navigation to the cart-requests view. <br>
+                > The view should request the user to enter the security code to login as Administrator. <br>
+                > Upon successful validation, the user should be navigated to the cake-requests view.<br>
+            </p>
+            <hr>
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Order History Page</p>
+            <img class="ms-3" src="./images/OrderHistory.PNG" alt="Order History">
+            <p class="duration_description mb-1">> This view will display all the cake order requests received in tabular format. <br>
+                > This view has restricted access and is accessible only to the site administrator.<br>
+            </p>
+            
+            
+        </section>
+    </section>
+
+ <!-- footer section  -->
+ <footer class="footer_section row py-4 px-2 mt-3 ps-4" id="Contact">
+    <!-- column 1 -->
+    <section class="footer_column1 col-md-6 col-lg-3">
+        <h4 class="footer_head display-6 mb-0">Keshav Kashiv</h4>
+        <p class="footer_para text-uppercase text-secondary mb-4">Frontend Developer</p>
+        <p class="footer_para text-light pe-4 lh-md">Crafting Engaging User Experiences: The Role of a Frontend
+            Developer</p>
+    </section>
+    <!-- column 2 -->
+    <section class="footer_column2 col-md-6 col-lg-3 ">
+        <h4 class="footer_head fs-5">Important Links</h4>
+        <ul class="footer_list ps-0 mt-3">
+            <li class="footer_item mb-2"><a href="https://www.linkedin.com/in/keshav-kashiv/" target="_blank"
+                    class="footer_link text-decoration-none text-light">LinkedIn</a></li>
+            <li class="footer_item  mb-2"><a href="https://www.instagram.com/ch_keshav_singh/" target="_blank"
+                    class="footer_link text-decoration-none text-light">Instagram</a></li>
+            <li class="footer_item  mb-2"><a href="https://github.com/Keshav07" target="_blank"
+                    class="footer_link text-decoration-none text-light">GitHub</a></li>
+        </ul>
+    </section>
+    <!-- column 3 -->
+    <section class="footer_column3 col-md-6 col-lg-3">
+        <h4 class="footer_head fs-5">Contact Info</h4>
+        <ul class="footer_list ps-0 mt-3">
+            <li class="footer_item mb-2"><i class="fa fa-phone pe-2"></i><a href="tel: 8920149998"
+                    class="footer_link text-decoration-none text-light">+91 8920149998</a></li>
+            <li class="footer_item  mb-2"><i class="fa fa-envelope pe-2"></i><a
+                    href="mailto: Keshavkashiv9650@gmail.com"
+                    class="footer_link text-decoration-none text-light">Keshavkashiv9650@gmail.com</a></li>
+        </ul>
+    </section>
+    <!-- column 4  -->
+    <section class="footer_column4 col-md-6 col-lg-3">
+        <h4 class="footer_head fs-5">Social Links</h4>
+        <ul class="footer_list ps-0 mt-3">
+            <a href="https://www.facebook.com/" target="_blank" class="footer-link"><i
+                    class="fa fa-facebook-square fs-4 pe-2"></i></a>
+            <a href="https://www.instagram.com/ch_keshav_singh/" target="_blank" class="footer-link"><i
+                    class="fa fa-instagram fs-4 pe-2"></i></a>
+            <a href="https://github.com/Keshav07" target="_blank" class="footer-link"><i
+                    class="fa fa-github fs-4 pe-2"></i></a>
+            <a href="https://www.linkedin.com/in/keshav-kashiv/" target="_blank" class="footer-link"><i
+                    class="fa fa-linkedin fs-4 pe-2"></i></a>
+        </ul>
+    </section>
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

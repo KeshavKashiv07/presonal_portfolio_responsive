@@ -3,18 +3,18 @@ body{
 }
 .top_section{
     background-color: #0C134F;
-    border-bottom: 1px solid #FDE2F3;
+    border-bottom: 1px solid #fdf0d5;
 }
 .main_heading{
     font-family: Monoton;
     letter-spacing: 10px;
-    color: #FDE2F3;
+    color: #fdf0d5;
 }
 nav.navbar{
     background-color: #0C134F   ;
 }
 a.nav-link{
-    color: white;
+    color: #fdf0d5;
     font-family: Poppins;
 }
 a.nav-link:hover{
@@ -37,11 +37,11 @@ a.nav-link:hover{
     font-weight: 400;
 }
 span{
-    color: #FDE2F3;
+    color: #fdf0d5;
     letter-spacing: 2px;
 }
 .about_me{
-    color: #FDE2F3;
+    color: #fdf0d5;
 }
 hr{
     width:60%;
@@ -50,7 +50,7 @@ hr{
     color: whitesmoke;
 }
 .hero_section{
-    background-color: #fde2f3b5;
+    background-color: #fdf0d5;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom: 5px solid #0C134F;
@@ -63,7 +63,7 @@ hr{
     font-family: 'Staatliches', cursive;
     color: #0C134F;
 }
-.degree_description,.school_description,.duration_description,.location_description,.list_description,.credential_id{
+.degree_description,.school_description,.duration_description,.location_description,.list_description,.credential_id,.project-description{
     font-family: Poppins;
 }
 .degree_description,.list_description{
@@ -85,7 +85,7 @@ hr{
     background-color: #0C134F;
 }
 .footer_head{
-    color: thistle;
+    color: #fdf0d5;
 }
 .footer_list{
     list-style: none;
@@ -138,13 +138,24 @@ transition: .2s ease-in;
     animation: bootstrap_move 10s linear 1s infinite alternate;
 
 }
+.shape_five{
+    height: 60px;
+    width: 60px;
+    background-color: #FDE2F3;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .7;
+    right:7px;
+    animation: bootstrap_move 8s linear 3s infinite alternate;
+
+}
 /* Scroll Bar  */
 ::-webkit-scrollbar{
     background-color:#0C134F;
     width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #FDE2F3;
+    background-color: #fdf0d5;
     border-radius: 10px;
     width: 10%;
 }
@@ -206,5 +217,25 @@ transition: .2s ease-in;
         bottom:30%;
         left: 15%;
     }  
+}
+
+.readmore{
+    border: 0.5px solid #0C134F ;
+    font-family: Poppins;
+    width: 14%;
+    border-radius: 3px;
+    background-color: white;
+    color: #0C134F;
+    text-decoration: none;
+    padding: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+:hover.readmore {
+    color: green;
+    border: 0.5px solid green;
+    zoom: 1.1;
+    transition: .3s ease-in;
 }
 
