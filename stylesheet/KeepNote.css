@@ -2,80 +2,80 @@ body{
     margin: 0;
 }
 .top_section{
-    background-color: #fdf0d5;
-    border-bottom: 2px solid #780000;
+    background-color: #e0e1dd;
+    border-bottom: 2px solid #003566;
 }
 
 .main_heading{
     font-family: 'Staatliches', cursive;
     letter-spacing: 10px;
-    color: #780000;
-    background-color: #fdf0d5;
+    color: #003566;
+    background-color: #e0e1dd;
 }
 
 nav.navbar{
-    background-color: #fdf0d5   ;
+    background-color: #e0e1dd   ;
 }
 a.nav-link{
-    color: #780000;
+    color: #003566;
     font-family: Poppins;
 }
 a.nav-link:hover{
-    border-bottom: 2px solid #780000;
+    border-bottom: 2px solid #003566;
     transition: .1s ease-in;
-    color: #003049;
+    color: black;
 }
 .head_section{
-    background-color: #fdf0d5;
+    background-color: #e0e1dd;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    border-bottom: 9px solid #780000;
+    border-bottom: 9px solid #003566;
 }
 .about_me{
-    color: #780000;
+    color: #003566;
 }
 .line{
     width:80%;
 }
 
 span{
-    color: #780000;
+    color: #003566;
 }
 .about_mepara{
     color: black;
     font-family: Poppins;
 }
 .hero_section{
-    /* background-color: #fdf0d5; */
+    /* background-color: #e0e1dd; */
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    border-bottom: 7px solid #780000;
+    border-bottom: 7px solid #003566;
 }
 .Problam{
     font-family: 'Staatliches', cursive;
-    color: #780000;
+    color: #003566;
 }
 .history{
-    color: #780000;
+    color: #003566;
 }
 
 .software_section{
-    background-color: #fdf0d5;
+    background-color: #e0e1dd;
 }
 
 .tools{
-    color: #780000;
+    color: #003566;
 }
 .education_head,.certificate_head,.software_head{
     font-family: 'Staatliches', cursive;
-    color: #780000;
+    color: #003566;
 }
 .school_description,.duration_description,.location_description,.list_description,.credential_id,.project-description{
     font-family: Poppins;
 }
 .degree_description,.list_description{
     letter-spacing: 2px;
-    color: #780000;
+    color: #003566;
 }
 .tech_description{
     list-style: none;
@@ -84,7 +84,7 @@ span{
     font-family: Poppins; 
 }
 .tech_items:hover{
-    background-color: #780000;
+    background-color: #003566;
     color: white;
     transition: .3s ease-in;
 }
@@ -92,16 +92,16 @@ span{
 img{
     width: 450px;
     height: 250px;
-    border: 1px solid #780000 ;
+    border: 1px solid #003566;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 .footer_section{
-    background-color: #780000;
+    background-color: #003566;
 }
 .footer_head{
-    color: #fdf0d5;
+    color: #e0e1dd;
 }
 .footer_list{
     list-style: none;
@@ -122,5 +122,5 @@ transition: .2s ease-in;
 }
 
 .footer_para_FD{
-    color: #fdf0d5;
+    color: #e0e1dd;
 }

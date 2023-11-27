@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Note</title>
+
+     <!-- stylesheet -->
+     <link rel="stylesheet" href="./stylesheet/KeepNote.css">
+     <!-- google font  -->
+     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+     <!-- Bootstrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <!-- font awwsomme  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+
+    <section class="top_section py-3">
+        <h1 class="main_heading display-6 text-center fs-1 text-uppercase">Keep Notes</h1>
+    </section>
+
+    <!-- nabar  -->
+    <nav class="navbar  navbar-expand-lg px-4">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler bg-light rounded-3 mt-md-2 w-auto" type="button" data-bs-target="#navBarItems"
+                data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarItems">
+                <ul class="navbar-nav d-flex w-100 justify-content-center">
+                    <li class="nav-item px-3">
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#Problam" class="nav-link ">Problam Statement</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#Tools" class="nav-link ">Tools</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#Demo" class="nav-link ">Demo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- row 1 -->
+    <section class="head_section row ">  
+        <section class="column_one col-md-12 col-lg-12 align-items-center py-2 px-2 mb-2 pb-5">
+                <h4 class="about_me mt-5 fs-5 text-uppercase m-3">Context</h4>
+                <p class=" about_mepara fs-6  mt-3 lh-lg m-3 ">Keep-Note is a web application that allows users to maintain notes. It is developed as a single-page application using multiple components. <br>
+                    Note: The stages through which the development process will be carried out are shown below: <br>
+                     <span>Stage 1 : </span> Create basic `Keep-Note` application to add and view notes.<br>
+                     <span>Stage 2 : </span> Implement unit testing for the `Keep-Note` application.<br>
+                     <span>Stage 3 : </span> Create `Keep-Note` application with multiple interacting components to add, view and search notes.<br>
+                     <span>Stage 4 : </span> Implement persistence in the `Keep-Note` application.<br>
+                     <span>Stage 5 : </span> Style the `Keep-Note` application using Material design.<br>
+                     <span>Stage 6 : </span> Create simple form with validation in the `Keep-Note` application.<br>
+                     <span>Stage 7 : </span> Create complex form with validation in the `Keep-Note` application.<br>
+                     <span>Stage 8 : </span> Enable navigation in the `Keep-Note` application.<br>
+                     <span>Stage 9 : </span> Secure routes in the `Keep-Note` application.<br>
+                </p>
+                <hr class=" line ms-3 m-4">
+                <h4 class="about_me mt-2 fs-5 text-uppercase m-3" >Objective </h4>
+                <p class=" about_mepara fs-6  mt-3 lh-lg m-3 me-2">
+                     <span>User-Friendly Note Management : </span>Enable users to effortlessly create, view, and search notes, fostering a seamless and intuitive note-taking experience <br>
+                    <span>Enhanced Security Measures : </span>Implement robust authentication & authorization mechanisms to safeguard user data and restrict access to sensitive functionalities, ensuring a secure environment.<br>                    
+                    <span>Comprehensive Feature Set : </span> Offer a diverse set of features, including persistence, material design styling, form validations, and navigation, enhancing the overall utility and user satisfaction. <br>                    
+                    <span>Scalability and Extensibility : </span>Design the application with a modular and scalable architecture, allowing for future enhancements and modifications to meet evolving user needs. <br>                    
+                    <span>Quality Assurance Through Testing : </span>Prioritize the reliability of the application by implementing unit testing, guaranteeing a stable and error-resistant user experience. <br> 
+                    <span>Effortless Note Editing : </span>Facilitate users in easily modifying and updating their notes, ensuring a dynamic and responsive editing experience. <br> 
+                    <span>Intuitive Note Deletion : </span>Enable users to effortlessly delete notes they no longer need, promoting a clutter-free and organized digital workspace<br> 
+                    <span>Mobile Responsiveness : </span> Ensure the application is fully responsive and accessible on various devices, including desktops, tablets, and smartphones, to cater to a wide range of users. <br>
+                </p>
+        </section>
+    </section>
+
+<!-- row 2  -->
+    <section class="hero_section row d-flex align-items-center px-3 h-auto py-3 my-3" id="Problam">
+        <section class="education_column col-md-6 col-lg-5 ">
+            <h4 class="history text-uppercase fs-5 ms-3">History</h4>
+            <p class="Problam display-1 ms-3">Problam<br>& Statement</p>
+        </section>
+        <section class="Problam_Description col-md-6 col-lg-7 px-3 py-4">
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">Design a single-page application for Keep Note with Header and Dashboard components using Angular CLI.</p> <hr>
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">Create test cases to enable testing for the solution of Keep Note Application. <br>
+                The test code should ensure: <br>
+                  - The expected title is available in the Header component. <br> 
+                  - The Dashboard component displays the list of notes.<br>
+                  - The Dashboard Component enables the search for notes as expected.</p><hr>
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">Develop the `Keep-Note` application as an SPA with multiple components. The application should display notes, allow searching for a note by its title and allow adding a new note.</p>  <hr>              
+            <p class=" mb-1 fw-semibold my-3 me-5fs-6">Implement persistence in the `Keep-Note` application to make HTTP requests to fetch and post notes data​ using Angular Services. <br>
+                The components of the application should consume this service to add, fetch and search notes.         <br>       
+                If any error is returned with the response, then the components should handle it and raise an alert with appropriate error message.</p> <br> <hr>
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">Style the `Keep-Note` application using the Angular Material components, schematics and a pre-built theme. </p> <br> <hr>
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">Develop a template-driven form to add a new note. The data model for notes should include properties: title, content, reminder date, category, and priority level. Priority levels should be low, medium, high or critical. <br>
+                        Following tasks need to be completed to develop the solution for the Keep-Note application: <br>                        
+                        - Task 1: Modify the data model. <br> 
+                        - Task 2: Include the required modules <br> 
+                        - Task 3: Modify the NoteAddComponent <br> 
+                        - Task 4: Define the form layout inside template <br> 
+                        - Task 5: Handle form validation <br> 
+                        - Task 6: Display notification message on successful form submission <br> 
+                        - Task 7: View the newly added note </p> <br> <hr>
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">Develop a user registration form to add a new user using Angular reactive forms. The data model for the user should include the following properties: firstName, lastName, password, confirmPassword, gender, age, email, phone, and address. (The address property should contain details: street, city, state, and zipCode).</p> <br> <hr>
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">Include the edit note and the delete note functionalities in the `Keep-Note` application to allow modification and deletion of the existing notes. Enable routing in the `Keep-Note` application using Angular `Router`.</p> <br> <hr>
+            <p class=" mb-1 fw-semibold my-3 me-5 fs-6">In this final stage of development of the `Keep-Note` application, the user should first log in and get the credentials validated. Upon successful validation, the user should be allowed to access views that permit interactions with the notes data. <br>
+               The application should also seek confirmation from the user before leaving the edit note view with unsaved changes.</p> 
+
+        </section>
+    </section>
+
+<!-- row 3 -->
+    <section class="software_section row d-flex align-items-center px-3 h-auto py-3" id="Tools">
+        <section class="software_heading_column col-md-6 col-lg-5 ">
+            <h4 class="tools text-uppercase fs-5 ms-3">Tools</h4>
+            <p class="software_head display-1 ms-3">Software<br>& Skills</p>
+        </section>
+        <section class="software_item_column col-md-6 col-lg-7 px-3 py-4">
+            <!-- frontend tech  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Frontend technologies</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">Html5</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">Css3</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">TypeScript</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 mb-md-1 mb-1">Rest API</li>
+            </ul>
+            <hr>
+            <!-- framework  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold ">Frameworks</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Bootstrap5</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Angular</li>
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Jasmine Karma</li>
+            </ul>
+            <hr>
+            <!-- database tech  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Database technologies</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">Json Server</li>
+            </ul>
+            <hr>
+            <!-- softwares  -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Softwares</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">VS Code</li>
+            </ul>
+            <hr>
+            <!-- version control tech   -->
+            <p class="list_description text-uppercase mb-1 fw-semibold">Version control technologies</p>
+            <ul class="tech_description d-flex ps-0 my-3 flex-wrap">
+                <li class="tech_items border rounded-5 py-2 px-3 me-2 me-2 mb-md-1 mb-1">GitHub</li>
+            </ul>
+        </section>
+    </section>
+
+
+<!-- row 4 -->
+    <section class="hero_section row d-flex align-items-center px-3 h-auto py-3" id="Demo">
+        <section class="education_column col-md-5 col-lg-5 ">
+            <h4 class="history text-uppercase fs-5 ms-3">Working</h4>
+            <p class="certificate_head display-1 ms-3">Demo</p>
+        </section>
+        <section class="education_column2 col-md-7 col-lg-7 px-3 py-4">
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Login Page</p>
+            <img class="ms-3" src="./images/LoginPage.PNG" alt="Login Page">
+            <p class="duration_description mb-1">> The user should be fristly navigated to the login view after open this Keep Notes Application  <br>
+                > The view should request the user to enter the Email id and password. <br>
+                > Upon successful validation, the user should be navigated to the home page.<br>
+            </p>
+            <hr>
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Home Page</p>
+            <img class="ms-3" src="./images/LandingViewKeepNote.png" alt="Home Page">
+            <p class="duration_description mb-1">> The landing view of the app must display the cards of all notes.<br>
+                > The data must be fetched using json-server.<br>
+                > This view must be the default view.<br>
+                > These card should be editable by the user.<br>
+                > After click on edit button, the user should be navigated to the Edit view.<br>
+                > The Home view must also allow users to search these card by their preference.<br>
+                > Search allows user to search by title of the note.<br>
+                > After click on delete button, the card will be deleted from the home page as well as from the json-server.<br>
+            </p>
+            <hr>
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Edit View</p>
+            <img class="ms-3" src="./images/Edit Note Page.PNG" alt="EditPage">
+            <p class="duration_description mb-1">> The user will be navigated to the edit view once he press the edit button on the landing view.<br>
+                > The view should display the details of the card(note) selected. <br>
+                > This view should also allow user to change the data of a selected card of a note. <br>
+                > After adding the data to the card then user wants to save the data with the save button <br>
+                > The app will request confirmation from the user to leave the view, if the user attempts to navigate away from this view without submitting the request.<br>
+            </p>
+            <hr>
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">Add Note Page</p>
+            <img class="ms-3" src="./images/AddNotePage.PNG" alt="Add Notes">
+            <p class="duration_description mb-1">> On the home page there is present one section for add new notes. if he press the add notes button then open a new section for adding for new notes. <br>
+                > The add new notes section must have Title, Content, date, category of the card which is entered by user. <br>
+                > Upon successful entered details of the card, the user should be submit the card details by the submit button<br>
+                > After submiting the new card details then this data save in json-server and show on Home page. <br>
+            </p>
+            <hr>
+            <p class="degree_description text-uppercase mb-1 fw-semibold mb-3 ms-3">User Register Page</p>
+            <img class="ms-3" src="./images/RegisterPage.PNG" alt="RegisterPage">
+            <p class="duration_description mb-1">> This view will display all the user input details which is entered by the user. <br>
+                > After inputing all the details from the user. this data will save on the json-server after press the submit button<br>
+                > This form will be with proper validation and with correct details. <br>
+            </p>
+            
+            
+        </section>
+    </section>
+
+ <!-- footer section  -->
+ <footer class="footer_section row py-4 px-2 mt-3 ps-4" id="Contact">
+    <!-- column 1 -->
+    <section class="footer_column1 col-md-6 col-lg-3">
+        <h4 class="footer_head display-6 mb-0">Keshav Kashiv</h4>
+        <p class="footer_para_FD text-uppercase mb-4">Frontend Developer</p>
+        <p class="footer_para text-light pe-4 lh-md">Crafting Engaging User Experiences: The Role of a Frontend
+            Developer</p>
+    </section>
+    <!-- column 2 -->
+    <section class="footer_column2 col-md-6 col-lg-3 ">
+        <h4 class="footer_head fs-5">Important Links</h4>
+        <ul class="footer_list ps-0 mt-3">
+            <li class="footer_item mb-2"><a href="https://www.linkedin.com/in/keshav-kashiv/" target="_blank"
+                    class="footer_link text-decoration-none text-light">LinkedIn</a></li>
+            <li class="footer_item  mb-2"><a href="https://www.instagram.com/ch_keshav_singh/" target="_blank"
+                    class="footer_link text-decoration-none text-light">Instagram</a></li>
+            <li class="footer_item  mb-2"><a href="https://github.com/Keshav07" target="_blank"
+                    class="footer_link text-decoration-none text-light">GitHub</a></li>
+        </ul>
+    </section>
+    <!-- column 3 -->
+    <section class="footer_column3 col-md-6 col-lg-3">
+        <h4 class="footer_head fs-5">Contact Info</h4>
+        <ul class="footer_list ps-0 mt-3">
+            <li class="footer_item mb-2"><i class="fa fa-phone pe-2"></i><a href="tel: 8920149998"
+                    class="footer_link text-decoration-none text-light">+91 8920149998</a></li>
+            <li class="footer_item  mb-2"><i class="fa fa-envelope pe-2"></i><a
+                    href="mailto: Keshavkashiv9650@gmail.com"
+                    class="footer_link text-decoration-none text-light">Keshavkashiv9650@gmail.com</a></li>
+        </ul>
+    </section>
+    <!-- column 4  -->
+    <section class="footer_column4 col-md-6 col-lg-3">
+        <h4 class="footer_head fs-5">Social Links</h4>
+        <ul class="footer_list ps-0 mt-3">
+            <a href="https://www.facebook.com/" target="_blank" class="footer-link"><i
+                    class="fa fa-facebook-square fs-4 pe-2"></i></a>
+            <a href="https://www.instagram.com/ch_keshav_singh/" target="_blank" class="footer-link"><i
+                    class="fa fa-instagram fs-4 pe-2"></i></a>
+            <a href="https://github.com/Keshav07" target="_blank" class="footer-link"><i
+                    class="fa fa-github fs-4 pe-2"></i></a>
+            <a href="https://www.linkedin.com/in/keshav-kashiv/" target="_blank" class="footer-link"><i
+                    class="fa fa-linkedin fs-4 pe-2"></i></a>
+        </ul>
+    </section>
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

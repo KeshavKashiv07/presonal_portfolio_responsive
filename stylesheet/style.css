@@ -146,7 +146,7 @@ transition: .2s ease-in;
     position: absolute;
     opacity: .7;
     right:7px;
-    animation: bootstrap_move 8s linear 3s infinite alternate;
+    animation: bootstrap_move 6s linear 3s infinite alternate;
 
 }
 /* Scroll Bar  */
@@ -234,8 +234,7 @@ transition: .2s ease-in;
 
 :hover.readmore {
     color: green;
-    border: 0.5px solid green;
-    zoom: 1.1;
-    transition: .3s ease-in;
+    border: 2px solid green;
+    transition: .2s ease-in;
 }
 
